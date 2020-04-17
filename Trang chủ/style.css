@@ -1,0 +1,75 @@
+body{
+	font-family: Tahoma;
+	font-size: 15px;
+	width: 1000px;
+	margin: 0px auto;
+}
+#head{
+	width: 1000px;
+	height: 150px;
+	
+}
+#menu{
+	clear: left;	
+	height: 40px;
+}
+#main #left{
+	background-color: yellow;
+	width: 800px;
+	min-height: 600px;
+	float: left;
+}
+#main #right{
+	background-color: orange;
+	width: 200px;
+	min-height: 600px;
+	float: left;
+}
+#footer{
+	width: 1000px;
+	height: 80px;
+	line-height: 80px;
+	clear: left;
+	text-align: center;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#menu li{
+	list-style: none;
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px; 	
+	padding: 0px 30px 0px 30px
+}
+#menu ul li a.active{
+	background-color: #269fad;
+}
+#menu ul li a:hover{
+	background-color: #667d80
+
+}
+#head #logo img{
+	height: 100px;
+	width: 100px;
+	margin: 0px 30px 0px 100px;
+	float: left;
+}
+#head #searching{
+	height: 100px;
+	float: left;
+	line-height: 100px;
+	margin: 0px 150px 0px 50px;
+}
+#head #login{
+	float: left;
+}
+#head #header{
+	text-align: center;
+	font-size: 30px;
+}
